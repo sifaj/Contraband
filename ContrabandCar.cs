@@ -20,12 +20,12 @@ namespace Contraband
             if (Examine() == true)
             {
                 Console.WriteLine("Stöldgods hittat!");
-                Console.WriteLine("Stöldgods: " + contrabandAmount);
+                Console.WriteLine("Stöldgods: " + contrabandAmount + "\n");
             }
 
             else if (Examine() == false)
             {
-                Console.WriteLine("Stöldgods EJ hittat!");
+                Console.WriteLine("Stöldgods EJ hittat!\n");
             }
         }
     }

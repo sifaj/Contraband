@@ -34,14 +34,10 @@ namespace Contraband
                 }
             }
 
-            Console.WriteLine(cars);
-
             var carList = new List<Car>();
 
             for (int i = 0; i < cars; i++)
-
-            
-            {
+            { 
                 int random = generator.Next(0, 3);
 
                 if (random == 1)

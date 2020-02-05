@@ -15,17 +15,17 @@ namespace Contraband
             passengers = generator.Next(0, 4);
             contrabandAmount = 0;
 
-            Console.WriteLine("Passagerare: " + passengers);
+            Console.WriteLine("Passagerare: " + passengers + "\n");
 
             if (Examine() == true)
             {
                 Console.WriteLine("Stöldgods hittat!");
-                Console.WriteLine("Stöldgods: " + contrabandAmount);
+                Console.WriteLine("Stöldgods: " + contrabandAmount + "\n");
             }
 
             else if (Examine() == false)
             {
-                Console.WriteLine("Stöldgods EJ hittat!");
+                Console.WriteLine("Stöldgods EJ hittat!\n");
             }
         }
     }
